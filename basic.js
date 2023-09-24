@@ -19,6 +19,10 @@ console.log(lastName)
 console.log(age)
 console.log(gender)
 console.log(iMarried)
+//let b="harry"
+let b=4
+let a=7
+
 
 
 
