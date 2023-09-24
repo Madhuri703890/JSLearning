@@ -33,7 +33,8 @@ swapValues(1000,2000);
 console.log("==================Q.4=================");
 function addThreeValues(v1,v2,v3)
 {
-    console.log("First Value=>",v1,"Second Value=>",v2,"Third Value=>",v3);
+    var add=v1+v2+v3;
+    console.log("Addition=>", add);
 }
 addThreeValues(10.23,600,40)
 addThreeValues("Hello", "Good", "Morning")
