@@ -49,7 +49,6 @@ console.log(table10);
 console.log("===============Reverse table of 10============");
 var tablerev="";
 for (let index = 100; index >= 10; index-=10) {
-   //const element = array[index];
-   tablerev=tablerev+index+" ";
+   ;   tablerev=tablerev+index+" ";
 }
 console.log(tablerev);
