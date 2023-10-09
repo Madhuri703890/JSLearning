@@ -27,31 +27,35 @@ for (let index = 1; index < arrayNumber.length; index++) {
 }
 console.log(`odd numbers are= ${odd}`);
 
-console.log(`Find all the even positioned elements from arrayNumbers, sum it and log on console`);
-for (let index = 0; index < arrayNumber.length; index+=2) {
-    const element = arrayNumber[index];
-    console.log(element);
+console.log(
+  `Find all the even positioned elements from arrayNumbers, sum it and log on console`
+);
+for (let index = 0; index < arrayNumber.length; index += 2) {
+  const element = arrayNumber[index];
+  console.log(element);
 }
 
-console.log(`Find all the odd positioned elements from arrayNumbers, sum it and log on console`);
-for (let index = 1; index < arrayNumber.length; index+=2) {
-    const element = arrayNumber[index];
-    console.log(element);
+console.log(
+  `Find all the odd positioned elements from arrayNumbers, sum it and log on console`
+);
+for (let index = 1; index < arrayNumber.length; index += 2) {
+  const element = arrayNumber[index];
+  console.log(element);
 }
 
 console.log(`Find the sum of all elements from arrayNumbers, log on console`);
-var sum=0;
+var sum = 0;
 for (let index = 0; index < arrayNumber.length; index++) {
-    var sum = sum+arrayNumber[index];
-    
-}console.log(`Sum=${sum}`);
+  var sum = sum + arrayNumber[index];
+}
+console.log(`Sum=${sum}`);
 
 console.log(`Find the numbers which are multiple of 5`);
-var div=0;
+var div = 0;
 for (let index = 0; index < arrayNumber.length; index++) {
-    if(arrayNumber[index]%5==0)
-    var div = div+arrayNumber[index]+" ";  
-}console.log(div);
+  if (arrayNumber[index] % 5 == 0) var div = div + arrayNumber[index] + " ";
+}
+console.log(div);
 
 console.log(`Is number 115 available in arrayNumbers ?`);
 console.log(`${arrayNumber.includes(115)}`);
@@ -60,9 +64,11 @@ console.log(`Is number 23 available in arrayNumbers ?`);
 console.log(`${arrayNumber.includes(23)}`);
 
 console.log(`Insert numbers → 55, 66 before index 3 and log array on console`);
-arrayNumber.splice(1,0,55,66);
+arrayNumber.splice(1, 0, 55, 66);
 console.log(arrayNumber);
 
-console.log(`Delete 3 elements starting from index 4 and log arrayNumbers on console`);
-arrayNumber.splice(4,3);
+console.log(
+  `Delete 3 elements starting from index 4 and log arrayNumbers on console`
+);
+arrayNumber.splice(4, 3);
 console.log(arrayNumber);
