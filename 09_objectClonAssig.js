@@ -35,6 +35,6 @@ console.log(`Traverse this merged object - step 5 using for in loop and log deta
 10`);
 for (const key in sbiDeatails) {
     
-      console.log(`${key}=>${sbiDeatails[key]}`);  
+      console.log(`${key}=>${sbiDeatails}`);  
     
 }
